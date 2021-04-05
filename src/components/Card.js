@@ -7,14 +7,12 @@ function Card(props) {
     const styles={
         container:{
             fontFamily:"Courier New",
-            backgroundColor:"#001a00",
             minWidth:"20%",
             minHeight:"50vh",  
             height:"50%", 
             float:"left", 
             margin:"20px", 
-            borderWidth:"5px",
-            borderColor:"#4AF626",
+            border: '2px solid #4AF626',
             borderRadius:"5px",
             padding:"10px",
             display:"flex",
