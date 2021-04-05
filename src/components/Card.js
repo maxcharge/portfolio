@@ -8,9 +8,9 @@ function Card(props) {
         container:{
             fontFamily:"Courier New",
             backgroundColor:"#001a00",
-            minWidth:"30%",
+            minWidth:"20%",
             minHeight:"50vh",  
-            height:"100%", 
+            height:"50%", 
             float:"left", 
             margin:"20px", 
             borderWidth:"5px",
@@ -43,7 +43,7 @@ function Card(props) {
                 <Typewriter
                     onInit={(typewriter)=>{
                     typewriter
-                        .pauseFor(7000)
+                        .pauseFor(9000)
                         .pasteString(props.content1 )
                         .start();
                     }
@@ -56,7 +56,7 @@ function Card(props) {
                 <Typewriter
                     onInit={(typewriter)=>{
                     typewriter
-                        .pauseFor(7000)
+                        .pauseFor(9000)
                         .pasteString(props.content2)
                         .start();
                     }
