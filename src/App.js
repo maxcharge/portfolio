@@ -1,6 +1,7 @@
 import React from 'react'
 
 import WelcomeScreen from './components/WelcomeScreen'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         minHeight:"100vh"
     }}>
       <WelcomeScreen/>
+      <Footer/>
     </div>
   )
 }
